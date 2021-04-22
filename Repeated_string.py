@@ -9,6 +9,9 @@ def repeatedString(s,n):
     extra = [1 for i in range(modee) if s[i]=='a']
     print (f'the extra a are {sum(extra)}')
     total = sum(count)*possible+ sum(extra)
+
+
+    
     return total
 def main():
     print(repeatedString('ada',10))
